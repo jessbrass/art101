@@ -7,15 +7,11 @@
     border: dotted 8px #CE796B;
     background-color: #F0F7F4;
     color: #3C493F;
-    
   }
   body {
     color: #F0F7F4;
     background-color: #CE796B;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-
-    
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
   }
   h1 {
     color:#F0F7F4;
@@ -25,8 +21,6 @@
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     font-size: 250%;
-
-   
     }
     #content {
       background-color: #3C493F;
