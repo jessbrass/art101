@@ -1,4 +1,20 @@
 /* this css file will only style the homepage of our site */
 #Me-at-the-Mystery-Spot {
   width: 200px;
+  border: dotted;
+  border-width: 5px;
+}
+
+.minor-section {
+  letter-spacing: 5px;
+  background-color: rgb(172, 74, 54);
+  font-style: italic;
+  font-family:'Courier New', Courier, monospace;
+  font-stretch: condensed;
+  
+}
+
+#content {
+  background-color: rgb(31, 146, 146);
+  
 }

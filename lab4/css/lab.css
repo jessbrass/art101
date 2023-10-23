@@ -4,6 +4,31 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: rgb(39, 53, 16) 5px dotted;
+    background-color: #578169;
+    text-align: left;
   }
+
+#Sewing {
+  width: 400px;
+  border: dotted;
+  border-color:rgb(137, 187, 228);
+  border-width: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#Mancala {
+  width: 400px;
+  border: dotted;
+  border-color:rgb(137, 187, 228);
+  border-width: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#content {
+  background-color: rgb(65, 163, 163);
+  font-style: italic;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  
+}
+
