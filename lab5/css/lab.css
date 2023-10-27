@@ -4,6 +4,35 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: dotted 5px #484161;
+    background-color: #5daecb;
+    font-family:'Courier New', Courier, monospace;
   }
+
+h1, h2, h3 {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-trim: 10px;
+}
+
+#My-Car {
+  width: 200px;
+  border-color: #484161;
+  border-width: 10px;
+  margin-right: 10%;
+}
+#Me-and-Ana {
+  width: 200px;
+  margin-left: 5%;
+}
+
+.output {
+  background-color: rgb(53, 143, 97);
+  border: dotted;
+  border-width: 12px;
+  border-color: rgb(14, 60, 18);
+}
+
+.minor-section1 {
+  background-color:rgb(129, 167, 119);
+  
+}
