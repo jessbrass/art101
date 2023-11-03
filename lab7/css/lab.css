@@ -1,0 +1,15 @@
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: dashed 5px #69ddf1;
+    background-color: #dc80ea;
+  }
+
+.output {
+    background-color: #69ddf1;
+    border: dotted 5px #b55cc5;;
+}
+
+#content {
+    background-color: rgb(195, 146, 252);
+}
