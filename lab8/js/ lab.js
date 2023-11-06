@@ -11,17 +11,10 @@ function add5(x){
     var results = (x + 5)
     return results;
 }
-array.map(function(x){
-    var results = (x + 10)
-    return results;
-})
  
-//test function (with help of ChatGPT)
-console.log("The result of adding 5 and 5 is:", results);
-console.log("The result of adding 5 and 10 is:", results);
-// should return multiples of 5
 
-// erm?
+
+// Teia's tests
 function numberone(test) {
     console.log(test + "one")
 }
