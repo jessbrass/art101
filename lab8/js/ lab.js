@@ -16,15 +16,15 @@ function add5(x){
 
 // Teia's tests
 function numberone(test) {
-    console.log(test + "one")
+    console.log(test + "one");
 }
 
 function numbertwo(test) {
-    console.log(test + "two")
+    console.log(test + "two");
 }
 
 function numberthree(test) {
-    console.log(test + "three")
+    console.log(test + "three");
     }
 
 numberone("Test 1: ");
