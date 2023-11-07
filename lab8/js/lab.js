@@ -25,17 +25,17 @@ function numberthree(test) {
     console.log(test + "TRES");
     }
 
-numberone("Test 1: ");
-numbertwo("Test 2: ");
-numberthree("Test 3: ");
+TESTING("Test 1: ");
+TESTING2("Test 2: ");
+TESTING3("Test 3: ");
 
-// callback
+// callback: words appearing in succession?
 setTimeout (function() {
-    appear ("erm");
+    TESTING1 ("erm");
 }, 2000);
 setTimeout (function() {
-    appear ("hello");
+     TESTING2("hello");
 }, 4000);
 xsetTimeout (function() {
-    appear ("does this work?");
+    TESTING3 ("does this work?");
 }, 6000);
