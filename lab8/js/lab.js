@@ -4,29 +4,38 @@
 // License: Public Domain
 
 // VARIABLES
-var myArray = [5, 10, 15, 20, 25, 30]
+var myArray = [5, 10, 15, 20, 25, 30];
 
 // FUNCTIONS 
 function add5(x){
     var results = (x + 5)
     return results;
 }
- 
 
-
-// Teia's tests
+// Wes's code
 function numberone(test) {
-    console.log(test + "one");
+    console.log(test + "UNO");
 }
 
 function numbertwo(test) {
-    console.log(test + "two");
+    console.log(test + "DOS");
 }
 
 function numberthree(test) {
-    console.log(test + "three");
+    console.log(test + "TRES");
     }
 
 numberone("Test 1: ");
-numberone("Test 2: ");
-numberone("Test 3: ");
+numbertwo("Test 2: ");
+numberthree("Test 3: ");
+
+// callback
+setTimeout (function() {
+    appear ("erm");
+}, 2000);
+setTimeout (function() {
+    appear ("hello");
+}, 4000);
+xsetTimeout (function() {
+    appear ("does this work?");
+}, 6000);
