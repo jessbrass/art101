@@ -26,17 +26,17 @@ function numberthree(test) {
     }
 
 // defining tests
-testing1 ("Test 1: ");
-testing2 ("Test 2: ");
-testing3 ("Test 3: ");
+numberone ("Test 1: ");
+numbertwo ("Test 2: ");
+numberthree ("Test 3: ");
 
 // callback: words appearing in succession?
 setTimeout (function() {
-    testing1 ("erm");
+    numberone("erm");
 }, 2000);
 setTimeout (function() {
-     testing2 ("hello");
+     numbertwo ("hello");
 }, 4000);
 setTimeout (function() {
-    testing3 ("does this work?");
+    numberthree ("does this work?");
 }, 6000);
