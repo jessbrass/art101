@@ -36,6 +36,6 @@ setTimeout (function() {
 setTimeout (function() {
      TESTING2("hello");
 }, 4000);
-xsetTimeout (function() {
+setTimeout (function() {
     TESTING3 ("does this work?");
 }, 6000);
