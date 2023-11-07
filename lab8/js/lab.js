@@ -34,7 +34,7 @@ setTimeout (function() {
     TESTING1 ("erm");
 }, 2000);
 setTimeout (function() {
-     TESTING2("hello");
+     TESTING2 ("hello");
 }, 4000);
 setTimeout (function() {
     TESTING3 ("does this work?");
