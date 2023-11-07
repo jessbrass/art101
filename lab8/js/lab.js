@@ -25,7 +25,7 @@ function numberthree(test) {
     console.log(test + "TRES");
     }
 
-TESTING("Test 1: ");
+TESTING1("Test 1: ");
 TESTING2("Test 2: ");
 TESTING3("Test 3: ");
 
