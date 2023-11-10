@@ -1,42 +1,38 @@
 // index.js - Anon Functions and Callbacks
-// Author: Jessie
+// Author: Jessie Brass
 // Date: Nov 5 2023
 // License: Public Domain
 
 // VARIABLES
-var myArray = [5, 10, 15, 20, 25, 30];
+var myArray = (4, 12, 16, 24, 28);
 
-// FUNCTIONS 
-function add5(x){
-    var results = (x + 5)
+// FUNCTIONS
+// multiply numbers in my array by 2
+function multiply(x){
+    var results = (x * 2)
     return results;
 }
 
-// Wes's code
-function numberone(test) {
-    console.log(test + "UNO");
+function add4(x){
+    var results = (x + 4)
+    return results;
 }
 
-function numbertwo(test) {
-    console.log(test + "DOS");
-}
+// print out results in the console
 
-function numberthree(test) {
-    console.log(test + "TRES");
-    }
+//multiply by 2
+console.log("multiply 4 by 2", multiply(4));
+console.log("multiply 12 by 2", multiply(12));
+console.log("multiply 16 by 2", multiply(16));
+console.log("multiply 24 by 2", multiply(24));
+console.log("multiply 28 by 2", multiply(28));
 
-// defining tests
-numberone ("Test 1: ");
-numbertwo ("Test 2: ");
-numberthree ("Test 3: ");
+// add 4 
+console.log("add 4 to 4",add4(4));
+console.log("add 4 to 12", add4(12));
+console.log("add 4 to 16", add4(16));
+console.log("add 4 to 24", add4(24));
+console.log("add 4 to 28", add4(28));
 
-// callback: words appearing in succession?
-setTimeout (function() {
-    numberone("erm");
-}, 2000);
-setTimeout (function() {
-     numbertwo ("hello");
-}, 4000);
-setTimeout (function() {
-    numberthree ("does this work?");
-}, 6000);
+
+
