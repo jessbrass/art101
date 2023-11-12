@@ -17,6 +17,7 @@ $("#challenge").append("<button id='lab-toggle-button'>plz plz plz click!<button
 // Add a click listener to the toggle Class button
 $("#lab-toggle-button").click(function(){
     $("#challenge").toggleClass(".special");
+    //Teia's line of code:
     $("#challenge").html("you clicked it!")
 });
 
