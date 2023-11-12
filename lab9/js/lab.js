@@ -7,17 +7,17 @@
 */
 
 // Add button to sections
-$(".output").append("<button id='button-output'>change BG color!!!!</button>");
-$(".challenge").append("<button id='button-challenge'>change BG color!</button>");
-$(".problems").append("<button id='button-problems'>change BG color!!</button>");
-$(".results").append("<button id='button-results'>change BG color!!!</button>");
+$("#output").append("<button id='button-output'>change BG color!!!!</button>");
+$("#challenge").append("<button id='button-challenge'>change BG color!</button>");
+$("#problems").append("<button id='button-problems'>change BG color!!</button>");
+$("#results").append("<button id='button-results'>change BG color!!!</button>");
 
 // Add toggle class button
-$(".challenge").append("<button id='lab-toggle-button'>special button<button>");
+$("#challenge").append("<button id='lab-toggle-button'>special button<button>");
 
 // Add a click listener to the toggle Class button
 $("#lab-toggle-button").click(function(){
-    $(".challenge").toggleClass(".special");
+    $("#challenge").toggleClass(".special");
 });
 
 // try ChatGPT's code?

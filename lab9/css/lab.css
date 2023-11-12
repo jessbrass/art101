@@ -1,12 +1,12 @@
 /*Seperate ID for every section for more fun colors and stuff*/
-.challenge {
+#challenge {
     padding: 10px;
     margin-bottom: 10px;
     border: dotted 5px rgb(76, 64, 64);
     background-color: #BCF4DE;
 }
 
-.problems {
+#problems {
     padding: 10px;
     margin-bottom: 10px;
     border: dotted 5px rgb(76, 64, 64);
@@ -14,14 +14,14 @@
 }
 
 
-.results {
+#results {
     padding: 10px;
     margin-bottom: 10px;
     border: dotted 5px rgb(76, 64, 64);
     background-color: #DED6D1;
 }
 
-.output {
+#output {
     padding: 10px;
     margin-bottom: 10px;
     border: dotted 5px rgb(76, 64, 64);
@@ -44,7 +44,7 @@
     background-color:  #f2c0a2;
 }
 
-.special {
+#special {
     padding: 10px;
     margin-bottom: 5px;
     border: 20px dashed #2AB7CA;
