@@ -6,29 +6,24 @@
    Date: Nov 10 2023
 */
 
-// Add button to sections
+// (For fun I guess) Add color change button to sections
 $("#output").append("<button id='button-output'>change BG color!!!!</button>");
-$("#challenge").append("<button id='button-challenge'>change BG color!</button>");
 $("#problems").append("<button id='button-problems'>change BG color!!</button>");
 $("#results").append("<button id='button-results'>change BG color!!!</button>");
 
-// Add toggle class button
-$("#challenge").append("<button id='lab-toggle-button'>special button<button>");
+// Add toggle class button to challenge
+$("#challenge").append("<button id='lab-toggle-button'>plz plz plz click!<button>");
 
 // Add a click listener to the toggle Class button
 $("#lab-toggle-button").click(function(){
     $("#challenge").toggleClass(".special");
+    $("#challenge").html("you clicked it!")
 });
 
-// try ChatGPT's code?
+// try ChatGPT's code? (for fun I guess)
 $(document).ready(function(){
     $("#button-output").click(function(){
         $("body").css("background-color", " #ec8d9d");
-})});
-
-$(document).ready(function(){
-    $("#button-challenge").click(function(){
-        $("body").css("background-color", " #57edb1");
 })});
 
 $(document).ready(function(){
