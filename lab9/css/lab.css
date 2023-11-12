@@ -1,12 +1,12 @@
 /*Seperate ID for every section for more fun colors and stuff*/
-.Challenge {
+.challenge {
     padding: 10px;
     margin-bottom: 10px;
     border: dotted 5px rgb(76, 64, 64);
     background-color: #BCF4DE;
 }
 
-.Problems {
+.problems {
     padding: 10px;
     margin-bottom: 10px;
     border: dotted 5px rgb(76, 64, 64);
@@ -14,7 +14,7 @@
 }
 
 
-.Results {
+.results {
     padding: 10px;
     margin-bottom: 10px;
     border: dotted 5px rgb(76, 64, 64);
@@ -29,8 +29,19 @@
 }
 
 #button-output {
-    background-color: #FFB7C3;
-    transition: background-color 1s ease-in;
+    background-color: #ec8d9d;
+}
+
+#button-challenge {
+    background-color: #57edb1;
+}
+
+#button-problems {
+    background-color:  #82d1a4;
+}
+
+#button-results {
+    background-color:  #f2c0a2;
 }
 
 .special {

@@ -7,35 +7,38 @@
 */
 
 // Add button to sections
-$(".output").append("<button id='button-output'>change color!</button>");
-$(".Challenge").append("<button id='button-challenge'>change color!!</button>");
-$(".Problems").append("<button id='button-problems'>change color!!!</button>");
-$(".Results").append("<button id='button-results'>change color!!!!</button>");
+$(".output").append("<button id='button-output'>change BG color!!!!</button>");
+$(".challenge").append("<button id='button-challenge'>change BG color!</button>");
+$(".problems").append("<button id='button-problems'>change BG color!!</button>");
+$(".results").append("<button id='button-results'>change BG color!!!</button>");
 
-// Add a click listener to the challenge button
-$("button-output").click(function(){
-    $(".output").addClass("selected");
+// Add toggle class button
+$(".challenge").append("<button id='lab-toggle-button'>special button<button>");
+
+// Add a click listener to the toggle Class button
+$("#lab-toggle-button").click(function(){
+    $(".challenge").toggleClass(".special");
 });
 
 // try ChatGPT's code?
 $(document).ready(function(){
     $("#button-output").click(function(){
-        $("body").css("background-color", " #FFB7C3");
+        $("body").css("background-color", " #ec8d9d");
 })});
 
 $(document).ready(function(){
     $("#button-challenge").click(function(){
-        $("body").css("background-color", " #BCF4DE");
+        $("body").css("background-color", " #57edb1");
 })});
 
 $(document).ready(function(){
     $("#button-problems").click(function(){
-        $("body").css("background-color", " #CDE5D7");
+        $("body").css("background-color", " #82d1a4");
 })});
 
 $(document).ready(function(){
     $("#button-results").click(function(){
-        $("body").css("background-color", " #DED6D1");
+        $("body").css("background-color", " #f2c0a2");
 })});
 
 
