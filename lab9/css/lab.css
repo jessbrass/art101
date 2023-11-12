@@ -1,0 +1,57 @@
+/*Seperate ID for every section for more fun colors and stuff*/
+.Challenge {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: dotted 5px rgb(76, 64, 64);
+    background-color: #BCF4DE;
+}
+
+.Problems {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: dotted 5px rgb(76, 64, 64);
+    background-color: #CDE5D7;
+}
+
+
+.Results {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: dotted 5px rgb(76, 64, 64);
+    background-color: #DED6D1;
+}
+
+.output {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: dotted 5px rgb(76, 64, 64);
+    background-color: #EEC6CA;
+}
+
+#button-output {
+    background-color: #FFB7C3;
+    transition: background-color 1s ease-in;
+}
+
+.special {
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 20px dashed #2AB7CA;
+    color: #FED766;
+    background-color: #fe4a49;
+    font-family:cursive;
+    font-style:italic;
+    font-variant-ligatures: historical-ligatures;
+    font-weight: bolder;
+    float: right;
+    height: 250px;
+}
+
+#my-cat-and-me {
+    width: 200px;
+    border: 5px dotted;
+
+}
+
+
+
