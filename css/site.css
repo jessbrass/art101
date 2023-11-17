@@ -24,13 +24,13 @@ h1 {
   margin: 25px;
   padding: 25px;
   border: dotted 5px rgb(76, 66, 66)888;
-  background-color: #496c5c;
+  background-color: #5f927b;
 }
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
   padding: 10px;
   margin-bottom: 10px;
-  border: dotted 5px #534848;
-  background-color: #63a6b4;
+  border: dotted 7px #ffffff;
+  background-color: #8dd1de;
 }

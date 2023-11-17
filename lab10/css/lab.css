@@ -1,0 +1,11 @@
+
+
+#output {
+    background-color: rgb(229, 148, 215);
+    font-family: 'Courier New', Courier, monospace;
+    border: dotted 10px;
+    border-top: lightblue;
+    border-bottom: lightblue;
+    border-left: white;
+    border-right: white;
+}
