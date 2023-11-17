@@ -1,6 +1,8 @@
 $("#da-button").click(function() {
+    console.log("button clicked");
     var name = prompt ("Gimme ur name bruv:");
-    $('title').html("hello" + name)
+    console.log 
+    newText = "Hello" + name + "!";
 })
 
 
