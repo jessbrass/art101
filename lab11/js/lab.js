@@ -9,8 +9,6 @@ function sortString(inputString) {
     // have to convert string to an array and back again to sort it
     return inputString.split("").sort().join("");
 }
-var anagram = generateAnagram
-
 
 // click listener
 $("#submit").click(function() {
@@ -23,27 +21,4 @@ $("#submit").click(function() {
 });
 
 
-// anagram code from class 
-for (let i = characters.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() *(i + 1));
-    [characters[i], characters [j]] = [characters[j], characters [i]];
-}
-
-return characters.join('');
-
-function generateAnagram(inputString) {
-    const characters = inputString.split('');
-}
-
-$("#animatedButton").click(function(){
-
-    const favemuffin = $("fave-muffin").val();
-   
-    const anagram = generateAnagram(favemuffin);
-
-    console.log("Prompt returned: " + anagram);
-
-    newText = "cool" + anagram + "!";
-    $("#fun-section").html(newText);
-})
 
