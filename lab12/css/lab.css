@@ -1,0 +1,30 @@
+.linkbox {
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(205, 174, 63);
+    border: 5px whitesmoke;
+}
+
+#output {
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(74, 129, 74);
+    border: dashed 5px darkolivegreen;
+}
+
+#output.append {
+    padding: 10px;
+    margin: 10px;
+    border: 5px lightseagreen;
+    color:antiquewhite;
+}
+
+#appendedElement {
+    color: goldenrod;
+    padding: 20px;
+    margin: 20px;
+    background-color:rgb(18, 69, 114);
+    font-family: cursive;
+    border: dotted rgb(126, 119, 205) 5px;
+    font-size: larger;
+}
