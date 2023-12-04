@@ -1,0 +1,20 @@
+#activate {
+   padding: 10px 15px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #000000;
+    background-color: #0f6c4a;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+    
+#activate:hover {background-color: #3e8e41}
+    
+#activate:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #424141;
+    transform: translateY(4px);
+    }
